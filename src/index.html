@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+  <title>Softonic Javascript Access Test</title>
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container panel">
+    <p class="panel-heading">Awesome series and actors finder</p>
+    <form class="search-form field has-addons" onsubmit="return false;">
+      <p class="control">
+        <span class="select">
+          <select id="searchCategory">
+            <option>Series</option>
+            <option>Actors</option>
+          </select>
+        </span>
+      </p>
+      <p class="control search-form__input">
+        <input class="input" type="text" placeholder="Search" id="searchInput">
+      </p>
+      <p class="control">
+        <button id="searchButton" class="button">Search</button>
+      </p>
+    </form>
+
+    <div id="app"></div>
+
+  </div>
+</body>
+</html>
